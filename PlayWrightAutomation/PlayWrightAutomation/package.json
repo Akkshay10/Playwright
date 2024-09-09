@@ -1,0 +1,24 @@
+{
+  "name": "PlayWrightAutomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "BROWSER=chromium DEVICE='Desktop Chrome' npx cucumber-js",
+    "test:safari": "BROWSER=webkit DEVICE='iPhone 11' npx cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "*",
+    "@playwright/test": "^1.40",
+    "allure-playwright": "^2.0.0-beta.15",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@cucumber/playwright": "^3.1.0",
+    "exceljs": "^4.4.0",
+    "PlayWrightAutomation": "file:"
+  }
+}
